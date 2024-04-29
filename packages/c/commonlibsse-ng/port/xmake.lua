@@ -5,7 +5,7 @@ set_project("CommonLibSSE")
 set_arch("x64")
 
 -- set languages
-set_languages("c++20")
+set_languages("c++23")
 
 -- add rules
 add_rules("mode.debug", "mode.release")
