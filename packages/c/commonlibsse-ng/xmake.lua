@@ -61,5 +61,5 @@ package("commonlibsse-ng")
             SKSEPluginLoad(const SKSE::LoadInterface*) {
                 return true;
             };
-        ]]}, { configs = { languages = "c++20" } }))
+        ]]}, { configs = { languages = "c++23" } }))
     end)
