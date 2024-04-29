@@ -6,7 +6,7 @@ package("commonlibsse-ng")
     add_urls("https://github.com/CharmedBaryon/CommonLibSSE-NG/archive/$(version).zip",
              "https://github.com/CharmedBaryon/CommonLibSSE-NG.git",
              "https://github.com/alandtse/CommonLibVR.git")
-    add_versions("7aefd9836afa4f4f665bb3f1508104f877f1bcf7", "9c64b6edc7c9a8587a2d24112394b8e87c86d631c6232b3e0bff2c2763dfb865")
+    add_versions("7aefd9836afa4f4f665bb3f1508104f877f1bcf7", {branch = "ng", sha256 = "9c64b6edc7c9a8587a2d24112394b8e87c86d631c6232b3e0bff2c2763dfb865"})
     add_versions("9b7c386d0355e756b4153416a76b0532f755f8de", "f48924a3050ccb1ca5705d1864db65cfb994966eab8200735997b307f58e8e1f")
     add_versions("v3.7.0", "c2fc2b5ac1c67ad4779bd0570c95fe494e0724f957a61880fa42cf74d1edce14")
     add_versions("v3.6.0", "6f84c36f5747cff73d6a95bc7b9de84b11601648b218fd3e69edc884cc94a5a8")
